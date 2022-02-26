@@ -59,3 +59,23 @@ nav ul a:hover{
   background-color: red;
   z-index: 3;
 }
+
+/*==Hamburger icon==*/
+
+#hburger-mnu{
+  position: absolute;
+}
+
+nav .burger-icon{
+  position: absolute;
+  right: 5%;
+  top: 50%;
+}
+
+nav .burger-icon .bline{
+  width: 30px;
+  height: 5px;
+  background: white;
+  margin: 5px;
+}
+
