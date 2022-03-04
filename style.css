@@ -2,10 +2,12 @@
 body{
 padding: 0;
 margin:0;
-background-color: hsl(1, 0%, 25%);
+background-color: white;
 font-family: Arial;
 }
-
+*body{
+  scroll-behavior: smooth;
+}
 /*==Navigation bar==*/
 
 nav{
@@ -116,27 +118,30 @@ nav .burger-icon .bline{
     bottom: 0;
     display: none;
   }
+  
 }
-
 section{
   background: url("background1.JPG");
 background-repeat: no-repeat;
 background-size: cover;
-height: calc(100vh - 80px);
-z-index: -1;
+background-attachment: fixed;
+height:100vh 
 }
-
-div .hometxt{
-  font-size: 20px;
-  text-align: center;
-  color: white;
-}
-
-.texty{
+.welcome{
   color: whitesmoke;
   text-align: center;
-  font-size:30px ;
-  padding-top: 140px;
-  position: relative;
-  font-weight: 700;
+  font-size:4rem ;
+  padding-top: 190px;
+  font-weight: 900;
+}
+
+.fronttxt{
+  color: orangered;
+}
+
+.welcometxt{
+  color: lightblue;
+}
+.scrolltxt{
+  font-size: 30px;
 }
