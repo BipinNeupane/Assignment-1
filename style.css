@@ -1,1 +1,14 @@
-=
+ #Header{
+    position: fixed;
+   background-color: #424949 ;
+    position: sticky;
+    border: black;
+}
+#wallpaper{
+    border: 1px solid black;
+    background-image: url("images/bg.jpg");/*image taken from*/
+}
+
+#links{
+    color: white;
+    padding-right: 7px;
