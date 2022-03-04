@@ -6,9 +6,53 @@
 }
 #wallpaper{
     border: 1px solid black;
-    background-image: url("images/bg.jpg");/*image taken from*/
+    background-image: url("images/bg.jpg");/*image taken from https://unsplash.com/photos/RYyr-k3Ysqg [Accessed 2nd March*/
 }
 
 #links{
     color: white;
     padding-right: 7px;
+    }
+#DivLinks{
+    display: inline;
+    margin-left: 55%;
+}
+img {vertical-align: middle;}
+.text {
+        color: white;
+    font-size: 35px;
+    padding: 8px 12px;
+    position: absolute;
+
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+   top: 200px;
+font-family: 'Baloo Bhai', cursive;
+    color: white;
+    height:60%;
+    padding-top: 50px;
+}
+#footer{
+  background-color: black;
+  height: 90px;
+  color: white;">
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    padding-left: 7px;
+    padding-right: 10px;
+}
+
+input[type=text] {
+    width: 40%;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  
+}
