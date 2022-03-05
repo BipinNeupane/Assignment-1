@@ -123,6 +123,8 @@ input[type=text] {
 
 
 #wallpaper{
+    height: 600px;
+    z-index: -1;
     border: 1px solid black;
     background-image: url("images/sbg.jpg");
 }
