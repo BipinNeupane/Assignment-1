@@ -27,7 +27,7 @@
 
 
 img {vertical-align: middle;}
-.welcometxt {
+ .welcometxt {
     color: white;
     font-size: 35px;
     padding: 8px 12px;
@@ -126,7 +126,7 @@ input[type=text] {
     height: 600px;
     z-index: -1;
     border: 1px solid black;
-    background-image: url("images/sbg.jpg");
+    background-image: url("images/background.png");
 }
 
 
@@ -165,14 +165,15 @@ img {vertical-align: middle;}
 
      //*===Contact Page===*//
 
- #wallpaper{
+}
+#wallpaper{
     border: 1px solid black;
     background-image: url("images/background.png");
     z-index: -1;
 }
 
 img {vertical-align: middle;}
-.gonna {
+.text {
     color: white;
     font-size: 20px;
     padding: 8px 12px;
