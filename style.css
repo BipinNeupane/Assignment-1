@@ -162,3 +162,27 @@ img {vertical-align: middle;}
             background-color:darkslategrey; 
 }
 
+
+     //*===Contact Page===*//
+
+ #wallpaper{
+    border: 1px solid black;
+    background-image: url("images/background.png");
+    z-index: -1;
+}
+
+img {vertical-align: middle;}
+.gonna {
+    color: white;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+   top: 50px;
+   font-family: 'Baloo Bhai', cursive;
+    color: white;
+    height:20%;
+    padding-top: 50px;
+}
