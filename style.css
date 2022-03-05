@@ -187,3 +187,72 @@ img {vertical-align: middle;}
     height:20%;
     padding-top: 50px;
 }
+
+    .form{
+
+        margin-right: 32%;
+        margin-left: 32%;
+        margin-top: 4%;
+        margin-bottom: 5%;
+        padding-top: 25px;
+        padding-right: 15px;
+        padding-left: 15px;
+        background: url("images/grey1.png");
+      
+
+    }
+
+    input[type=text]{
+
+        border-radius: 5px;
+        display: block;
+        padding: 13px;
+        margin-top: 20px;
+        border-width: 1px;
+        border-color: lightgray;
+        width: 95%;
+
+    }
+      
+    #button{
+        width: 82%;
+        margin-left: 44px;
+        padding-bottom: 25px;
+        background: dodgerblue;
+        font-family: sans-serif ;
+        color: white;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+         border-radius: 5px;
+        display: block;
+        padding: 13px;
+        margin-top: 20px;
+        border-width: 1px;
+        border-color: lightgray;
+        width: 75%;
+    }
+    fieldset{
+        border: none;
+        margin: 30px;
+        border-top: 1px solid lightslategray;
+        padding-top: 10px;
+         
+    }
+    p{
+        margin: 30px;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: grey;
+
+    }
+    #close{
+        background: none;
+        border: none;
+        position: relative;
+        left: 66.5%;
+        top:5.5em;
+        cursor: pointer;
+    }
+       
