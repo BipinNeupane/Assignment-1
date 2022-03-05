@@ -1,22 +1,28 @@
- #Header{
+    #Header{
     position: fixed;
    background-color: #424949 ;
     position: sticky;
     border: black;
+    height: 80px;
 }
 #wallpaper{
     border: 1px solid black;
-    background-image: url("images/bg.jpg");/*image taken from https://unsplash.com/photos/RYyr-k3Ysqg [Accessed 2nd March*/
+    background-image: url("images/bg.jpg");
+    
 }
 
 #links{
     color: white;
     padding-right: 7px;
-    }
+    padding-top: 40px;
+
+}
 #DivLinks{
     display: inline;
     margin-left: 55%;
 }
+
+
 img {vertical-align: middle;}
 .text {
         color: white;
@@ -56,3 +62,54 @@ input[type=text] {
   border: 1px solid grey;
   
 }
+
+.description-text{
+    font-size: 30px;
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: black;
+  color: white;
+}
+.fa-instagram {
+  background: black;
+  color: white;
+}
+.fa-github {
+  background: black;
+  color: white;
+}
+#icons{
+       text-align: center;
+}
+   .submenus{
+    text-align: center;
+    z-index: 1000;
+    display: none;
+    background: Black;
+    border-top: none;
+    font-size: 15px;
+    position: relative;
+}
+       .submenus a{
+           z-index: 1000;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+       .menus{
+           transition: 0.4s;
+       }
