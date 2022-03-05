@@ -4,21 +4,35 @@
     <title>CSY1018</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet"> <!-- taken from https://fonts.google.com/specimen/Baloo+Bhai+2 [Accessed march 2]-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="script.js"></script>
 </head>
 <body>
 <nav id="Header">
-    <a href="#">Introduction</a>   
-            <div id="DivLinks">
-           <a class="link" href="#">Home</a>
-           <a class="link" href="#">Portfolio</a>
-           <a class="link" href="#">Contact</a>
-           <a class="link" href="#">Blog</a>
-           <a class="link" href="#">Site Report</a>
+    <a href="#" class="menus" onmouseenter="OpenSubMenus(event,'a')"> <img src="images/menu.jpg" alt="menu" width="60" height="55"></a>
+    <a href="#" class="link"  onmouseenter="CloseSubMenus(event)" style="font-size: 27px;">Introduction</a>   
+            <div id="DivLinks"  onmouseenter="CloseSubMenus(event)">
+           <a class="link" href="Home.html">Home</a>
+           <a class="link" href="portfolio.html">Portfolio</a>
+           <a class="link" href="Contact.html">Contact</a>
+           <a class="link" href="Blog.html">Blog</a>
+           <a class="link" href="SiteReport.html">Site Report</a>
     </div>
+           
+        
+ 
 </nav>
-<div id="wallpaper" style="height: 600px">
+    <div id="a" class="submenus">
+           <a class="link" href="Home.html">Home</a>
+           <a class="link" href="portfolio.html">Portfolio</a>
+           <a class="link" href="Contact.html">Contact</a>
+           <a class="link" href="Blog.html">Blog</a>
+           <a class="link" href="SiteReport.html">Site Report</a>
+            </div>
+
+<div id="wallpaper" style="height: 600px;  z-index: -1;"  onmouseenter="CloseSubMenus(event)">
     <div class="text">
         <p>
             Hi there!
@@ -28,14 +42,29 @@
   <input type="text" placeholder="Search.." name="search2">
 
     </div>
-    </div>
-    <div id="footer" style="margin-bottom:0">
+
+</div>
+
+
+<div style="height: 200px">
+    <h1>Description:</h1>
+    <p class="description-text">This is the Home page.It is the front page of the website where we can access all the other pages from the navigation. This is the introduction part of the project. I have added a search box to search a specific thing that you want</p>
+    
+</div>
+
+
+
+
+
+<div id="footer" style="margin-bottom:0">
     <div id="icons">Follow Us
-    <a href="Facebook.com" class="facebook">Facebook</a>
-    <a href="instagram.com" class="instagram">Instagram</a>
-    <a href="github.com" class="github">Github</a>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-github"></a>
     </div>
 
 </div>
 
 </body>
+</html>
+
