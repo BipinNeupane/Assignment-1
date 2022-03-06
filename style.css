@@ -298,3 +298,26 @@ img {vertical-align: middle;}
   padding: 10px;
   z-index: -1;
 }
+
+  /*===Site-Report===*/
+#background5{
+    height: 100%;
+    z-index: -1;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.siteheads{
+    color: white;
+    text-decoration: underline;
+    font-family: serif;
+}
+
+.sitecolor{
+    color: navajowhite;
+}
+
+.thanks{
+    text-align: center;
+    color: green;
+}
