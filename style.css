@@ -26,8 +26,8 @@
 }
 
 
-img {vertical-align: middle;}
- .welcometxt {
+ img {vertical-align: middle;}
+ .texty {
     color: white;
     font-size: 35px;
     padding: 8px 12px;
@@ -42,6 +42,7 @@ img {vertical-align: middle;}
     padding-top: 50px;
 }
 #footer{
+  position: absolute;
   margin-bottom:0;
   background-color: black;
   height: 90px;
@@ -202,7 +203,7 @@ img {vertical-align: middle;}
 
     }
 
-    input[type=text]{
+    .form input[type=text]{
 
         border-radius: 5px;
         display: block;
@@ -233,7 +234,7 @@ img {vertical-align: middle;}
         border-color: lightgray;
         width: 75%;
     }
-    fieldset{
+       .fieldset{
         border: none;
         margin: 30px;
         border-top: 1px solid lightslategray;
