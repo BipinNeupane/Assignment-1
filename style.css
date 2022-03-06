@@ -42,7 +42,6 @@
     padding-top: 50px;
 }
 #footer{
-  position: absolute;
   margin-bottom:0;
   background-color: black;
   height: 90px;
@@ -257,3 +256,45 @@ img {vertical-align: middle;}
         cursor: pointer;
     }
        
+
+    /*===Blog page===*/
+
+ #background4{
+    height: 800px;
+    z-index: -1;
+    border: 1px solid white;
+   background-color: steelblue;
+}
+
+
+  .column {
+  background-color:#f0eded;
+  z-index: -1;
+  margin-top: 2%;
+  width: 48%;
+  display: inline-block; 
+  height: 180px;
+  border: 1px solid steelblue; 
+  padding: 10px;
+        z-index: -1;
+}
+  .column2 {
+  background-color:#f0eded
+  margin-top: 2%;
+  width: 48%;
+  display: inline-block; 
+  height: 180px;
+  border: 1px solid white;
+   padding: 10px;
+   z-index: -1;
+}
+ .column3 {
+  background-color:#f0eded
+  margin-top: 2%;
+  width: 48%;
+  display: inline-block; 
+  height: 180px;
+  border: 1px solid white; 
+  padding: 10px;
+  z-index: -1;
+}
